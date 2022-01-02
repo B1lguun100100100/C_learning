@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 // tree struct
-typedef struct node *tree;
+typedef struct node * tree;
 struct node {
     int key;
     tree left, right;
